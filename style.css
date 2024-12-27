@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.game{
+    display: grid;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 5px 3px;   
+    background-color: gainsboro;
+}
+.row{
+    display: flex;
+    width: fit-content;
+}
+.cell{
+    cursor: pointer;
+    background-color: silver;
+    width: 25px;
+    height: 25px;
+    margin: 0px 2px;
+}
+.cell:hover{
+    background-color: lightgray;
+}
+.bomb{
+    background-color: red;
+}
+.bomb:hover{
+    background-color: red;
+}
+.clear{
+    background-color: white;
+}
+.clear:hover{
+    cursor:default;
+    background-color: white;
+}
+.flag{
+    background-color: chocolate;
+}
+.flag:hover{
+    background-color: chocolate;
+}
+.flag-but{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.flag-label{
+    padding: 10px;  
+    font-size: 26px;
+}
+.settings{
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px gray;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
